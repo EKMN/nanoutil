@@ -7,7 +7,7 @@
     "build": "rollup -c",
     "test": "ava tests/*",
     "watch-tests": "npm test -- --watch --verbose",
-    "prepublish": "npm run build && npm test"
+    "prepare": "npm run build && npm test"
   },
   "repository": {
     "type": "git",
