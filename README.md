@@ -1,4 +1,9 @@
 # nanoutil
+[![Build Status](https://travis-ci.com/EKMN/nanoutil.svg?branch=master)](https://travis-ci.com/EKMN/nanoutil)
+[![install size](https://packagephobia.now.sh/badge?p=nanoutil@0.1.1)](https://packagephobia.now.sh/result?p=nanoutil@0.1.1)
+[![Maintainability](https://api.codeclimate.com/v1/badges/fda50a3cb4ee9624f9f8/maintainability)](https://codeclimate.com/github/EKMN/nanoutil/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/fda50a3cb4ee9624f9f8/test_coverage)](https://codeclimate.com/github/EKMN/nanoutil/test_coverage)
+
 An ultralight library of tiny utilities for (functional) JavaScript
 
 ## Why?

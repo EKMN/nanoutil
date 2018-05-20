@@ -6,6 +6,7 @@
   "scripts": {
     "build": "rollup -c",
     "test": "ava tests/*",
+    "coverage": "nyc npm test && nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "watch-tests": "npm test -- --watch --verbose",
     "prepare": "npm run build && npm test"
   },
@@ -22,6 +23,8 @@
   "homepage": "https://github.com/EKMN/nanoutil#readme",
   "devDependencies": {
     "ava": "1.0.0-beta.4",
+    "codecov": "^3.0.2",
+    "nyc": "^11.8.0",
     "rollup": "^0.59.1"
   }
 }
