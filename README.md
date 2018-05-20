@@ -3,6 +3,8 @@
 [![codecov](https://codecov.io/gh/EKMN/nanoutil/branch/master/graph/badge.svg)](https://codecov.io/gh/EKMN/nanoutil)
 [![install size](https://packagephobia.now.sh/badge?p=nanoutil@0.1.1)](https://packagephobia.now.sh/result?p=nanoutil@0.1.1)
 [![Maintainability](https://api.codeclimate.com/v1/badges/fda50a3cb4ee9624f9f8/maintainability)](https://codeclimate.com/github/EKMN/nanoutil/maintainability)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 
 An ultralight library of tiny utilities for (functional) JavaScript
 
