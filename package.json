@@ -1,12 +1,13 @@
 {
   "name": "nanoutil",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An ultralight library of tiny utilities for (functional) JavaScript",
   "main": "dist/nu.umd.min.js",
   "scripts": {
     "build": "rollup -c",
     "test": "ava tests/*",
-    "watch-tests": "npm test -- --watch --verbose"
+    "watch-tests": "npm test -- --watch --verbose",
+    "prepublish": "npm run build && npm test"
   },
   "repository": {
     "type": "git",

@@ -27,7 +27,7 @@ I fully acknowledge that there are a gazillion other utility and functional prog
 ## Goals
 - Verbose API
 - A balance between readability and minimal structure. One-liners are okay if they are comprehensible.
-- Minimal footprint when import the entire bundle: target <= 1kb (w/o gzip)
+- Minimal footprint when import the entire bundle: target <= 10kb (w/o gzip)
 - If new language-features can make the code shorter and more elegant, then it should be refactored to utilize those features. 
 
 ## Utilities from A to Z
