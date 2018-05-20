@@ -12,7 +12,8 @@ I fully acknowledge that there are a gazillion other utility and functional prog
     // => returns [1]
 
     nu.convert({ what: 'string', to: 'integer', source: 12 })
-    // => nu handles this by throwing a custom error message ("Conversion failed because the provided source (12) was not of the type 'string'")
+    // => nu handles this by throwing a custom error message: 
+    // => ("Invalid source type. Expected 'string', received 'integer'")
 
     nu.convert({ what: 'integer', to: 'string', source: 55 })
     // => valid conversion. Returns '55'
@@ -27,7 +28,7 @@ I fully acknowledge that there are a gazillion other utility and functional prog
 ## Goals
 - Verbose API
 - A balance between readability and minimal structure. One-liners are okay if they are comprehensible.
-- Minimal footprint when import the entire bundle: target <= 10kb (w/o gzip)
+- Minimal footprint when importing the entire bundle: target <= 10kb (w/o gzip)
 - If new language-features can make the code shorter and more elegant, then it should be refactored to utilize those features. 
 
 ## Utilities from A to Z
