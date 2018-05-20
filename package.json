@@ -1,0 +1,26 @@
+{
+  "name": "nanoutil",
+  "version": "0.1.0",
+  "description": "An ultralight library of tiny utilities for (functional) JavaScript",
+  "main": "dist/nu.umd.min.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "ava tests/*",
+    "watch-tests": "npm test -- --watch --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EKMN/nanoutil.git"
+  },
+  "keywords": [ "utility", "functional", "programming", "tiny", "light", "easy", "simple", "library" ],
+  "author": "Johannes Ekman <johannes@ekman.co>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EKMN/nanoutil/issues"
+  },
+  "homepage": "https://github.com/EKMN/nanoutil#readme",
+  "devDependencies": {
+    "ava": "1.0.0-beta.4",
+    "rollup": "^0.59.1"
+  }
+}
